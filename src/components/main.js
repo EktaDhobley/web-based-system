@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, TextField, Button } from "@mui/material";
 import {useNavigate} from 'react-router-dom'
 
@@ -8,9 +8,6 @@ export default function Main() {
     // const [fileContent, setFileContent] = useState("");
     let navigate = useNavigate()
 
-    useEffect(() => {
-        console.log(file, fileName, fileContent);
-    })
 
     function showFile(e) {
         e.preventDefault();

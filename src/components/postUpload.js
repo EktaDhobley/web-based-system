@@ -17,7 +17,6 @@ export default function PostUpload() {
           i++;
         }
         const element = document.createElement("a");
-        console.log(newLines.join("\n"))
         const file = new Blob([newLines.join("\n")], {
           type: "text/plain"
         });
