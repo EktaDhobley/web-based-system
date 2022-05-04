@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom'
 export default function Main() {
     const [file, setFile] = useState("");
     const [fileName, setFileName] = useState("");
-    const [fileContent, setFileContent] = useState("");
+    // const [fileContent, setFileContent] = useState("");
     let navigate = useNavigate()
 
     useEffect(() => {
